@@ -1,1 +1,0 @@
-/* Here is a JavaScript file (Used by ConcordionResources test) */

@@ -1,6 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'wrapper'
 
+defaultTasks 'clean', 'build'
+
 description = 'Concordion is an open source framework for Java that lets you turn a plain English description of a requirement into an automated test'
 
 wrapper {
