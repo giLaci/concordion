@@ -7,4 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(ConcordionRunner.class)
 public class MyFixture {
 
+    public String greetingFor(String name) {
+	return SimpleFormatter.format("Hello %s!", name);
+    }
+
 }
